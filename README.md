@@ -7,6 +7,9 @@ The system was realized in NVIDIA Jetson TK1 embedded Development Kit. Target sy
 Implementation is briefly described in the LWIRVisibleFusion.pdf.
 
 Implemented using 
+
 1. pthreads
-2. OpenCx cV
-3. Video Resources from onlizx ne
+
+2. OpenCV
+
+3. Video Resources from online
