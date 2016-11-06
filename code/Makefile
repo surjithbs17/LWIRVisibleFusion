@@ -3,8 +3,8 @@ LIB_DIRS =
 CC=g++
 
 CDEFS=
-CFLAGS= -O0 -g $(INCLUDE_DIRS) $(CDEFS)
-LIBS= -lrt
+CFLAGS= -O0 -pg -g $(INCLUDE_DIRS) $(CDEFS)
+LIBS= -lpthread -lrt -lX11 
 CPPLIBS= -L/usr/lib -lopencv_core -lopencv_flann -lopencv_video
 
 HFILES= 
